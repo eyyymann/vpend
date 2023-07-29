@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:the_end",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:end",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "vpend:void_zone",
+          "parameters": {
+            "temperature": -1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [1, -1.2],
+            "offset": 0
+          }
+        },{
+          "biome": "vpend:phantom_tropics",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -1.4,
+            "offset": 0
+          }
+        },{
+          "biome": "vpend:echoeing_wastelands",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -1.5,
+            "offset": 0
+          }
+        },{
+          "biome": "vpend:ancient_peaks",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -2,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item.vpend.mesoglea": "Mesoglea",
+
+  "block.vpend.phalm_log": "Phalm Log",
+  "block.vpend.phalm_leaves": "Phalm Leaves",
+  "block.vpend.void_soil": "Void Soil",
+  "block.vpend.phantom_skin": "Phantom Skin",
+  "block.vpend.phantom_crawl": "Phantom Crawl",
+
+  "itemgroup.items": "Vanilla+ End Items",
+  "itemgroup.blocks": "Vanilla+ End Blocks",
+
+  "effect.vpend.phantom": "Phantom"
+}

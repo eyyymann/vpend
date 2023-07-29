@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "vpend:block/phalm_log_top",
+    "side": "vpend:block/phalm_log"
+  }
+}

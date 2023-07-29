@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:min",
+    "argument1": "vpend:noise_filter",
+    "argument2": "vpend:top_density"
+  },
+  "argument2": {
+    "type": "minecraft:min",
+    "argument1": "vpend:noise_filter",
+    "argument2": "vpend:bottom_density"
+  }
+}
+
+
+

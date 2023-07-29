@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:shifted_noise",
+      "noise": "vpend:end_noise",
+      "xz_scale": 0.1,
+      "y_scale": 0,
+      "shift_x": 0,
+      "shift_y": 1,
+      "shift_z": 0
+    },
+    "points": [
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 0.5,
+        "derivative": -0.2,
+        "value": 0.1
+      },
+      {
+        "location": 0.8,
+        "derivative": 0.1,
+        "value": 0.2
+      },
+      {
+        "location": 1,
+        "derivative": 1.2,
+        "value": 1
+      }
+    ]
+  }
+}
