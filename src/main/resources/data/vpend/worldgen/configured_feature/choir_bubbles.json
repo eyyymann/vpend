@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "vpend:choir_bubbles",
+    "search_range": 60,
+    "chance_of_spreading": 10,
+    "can_place_on_floor": true,
+    "can_place_on_ceiling": true,
+    "can_place_on_wall": false,
+    "can_be_placed_on": [
+      "minecraft:end_stone"
+    ]
+  }
+}

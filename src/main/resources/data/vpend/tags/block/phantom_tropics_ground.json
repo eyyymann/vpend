@@ -1,0 +1,10 @@
+{
+  "values": [
+    "vpend:phantom_skin",
+    "vpend:phantom_end_stone",
+    "vpend:silicon",
+    "vpend:interclay",
+    "minecraft:end_stone"
+  ],
+  "replace": false
+}

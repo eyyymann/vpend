@@ -1,0 +1,46 @@
+{
+  "type": "vpend:end_vegetation",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 33,
+          "data": {
+            "Name": "vpend:phantom_blades"
+          }
+        },
+        {
+          "weight": 11,
+          "data": {
+            "Name": "vpend:phantom_bumps",
+            "Properties": {
+              "soul": "0"
+            }
+          }
+        },
+        {
+          "weight": 11,
+          "data": {
+            "Name": "vpend:phantom_bumps",
+            "Properties": {
+              "soul": "1"
+            }
+          }
+        },
+        {
+          "weight": 11,
+          "data": {
+            "Name": "vpend:phantom_bumps",
+            "Properties": {
+              "soul": "2"
+            }
+          }
+        }
+      ]
+    },
+    "spread_width": 8,
+    "spread_height": 4,
+    "ground": "#vpend:phantom_tropics_ground"
+  }
+}

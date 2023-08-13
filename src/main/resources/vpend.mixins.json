@@ -3,7 +3,9 @@
 	"package": "net.sixeyes.vpend.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"StatusEffectInstanceMixin",
+		"TrunkPlacerTypeInvoker",
+		"FoliagePlacerTypeInvoker"
 	],
 	"injectors": {
 		"defaultRequire": 1

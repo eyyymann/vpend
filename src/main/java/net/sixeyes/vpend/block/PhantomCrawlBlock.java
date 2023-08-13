@@ -1,7 +1,5 @@
 package net.sixeyes.vpend.block;
 
-import java.util.function.ToIntFunction;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Fertilizable;
@@ -31,7 +29,7 @@ public class PhantomCrawlBlock extends MultifaceGrowthBlock implements Fertiliza
 
     public PhantomCrawlBlock(Settings settings) {
         super(settings);
-        this.setDefaultState((BlockState)this.getDefaultState().with(WATERLOGGED, false));
+        this.setDefaultState(this.getDefaultState().with(WATERLOGGED, false));
     }
 
     // blockstate methods
@@ -51,7 +49,7 @@ public class PhantomCrawlBlock extends MultifaceGrowthBlock implements Fertiliza
 
     @Override
     public boolean canReplace(BlockState state, ItemPlacementContext context) {
-        return !context.getStack().isOf(Items.GLOW_LICHEN) || super.canReplace(state, context);
+        return !context.getStack().isOf(ModBlocks.PHANTOM_CRAWL.asItem()) || super.canReplace(state, context);
     }
 
     @Override

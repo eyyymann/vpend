@@ -9,6 +9,8 @@ import net.sixeyes.vpend.VPEndMod;
 public class ModStatusEffects {
 
     public static final StatusEffect PHANTOM = registerStatusEffect("phantom", new PhantomStatusEffect());
+    public static final StatusEffect SAVOURY = registerStatusEffect("savoury", new SavouryEffect());
+    public static final StatusEffect IMMUNITY = registerStatusEffect("immunity", new ImmunityEffect());
 
     private static StatusEffect registerStatusEffect(String name, StatusEffect statusEffect) {
         return Registry.register(Registries.STATUS_EFFECT, new Identifier(VPEndMod.MOD_ID, name), statusEffect);

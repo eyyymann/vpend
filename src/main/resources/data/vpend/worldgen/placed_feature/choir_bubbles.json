@@ -1,0 +1,27 @@
+{
+  "feature": "vpend:choir_bubbles",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 200
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "absolute": 256
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

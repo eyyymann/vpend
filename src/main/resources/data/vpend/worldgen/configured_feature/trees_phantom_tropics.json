@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "vpend:phalm_tree_small"
+      },{
+        "chance": 0.15,
+        "feature": "vpend:phalm_tree_big"
+      },{
+        "chance": 0.4,
+        "feature": "vpend:phalm_tree_medium"
+      },{
+        "chance": 0.3,
+        "feature": "vpend:fruit_bush"
+      }
+    ],
+    "default": "vpend:phalm_tree_small"
+  }
+}

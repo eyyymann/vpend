@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "vpend:phantom_crawl",
+    "search_range": 20,
+    "chance_of_spreading": 1,
+    "can_place_on_floor": false,
+    "can_place_on_ceiling": true,
+    "can_place_on_wall": false,
+    "can_be_placed_on": [
+      "minecraft:end_stone",
+      "vpend:phantom_end_stone",
+      "vpend:phantom_skin"
+    ]
+  }
+}

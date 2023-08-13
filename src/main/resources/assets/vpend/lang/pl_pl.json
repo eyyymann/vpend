@@ -1,0 +1,38 @@
+{
+  "item.vpend.mesoglea": "Mezoglea",
+  "item.vpend.banana": "Banan",
+  "item.vpend.orange": "Pomarańcz",
+  "item.vpend.peach": "Brzoskwinia",
+
+  "block.vpend.raw_silicon": "Surowy krzem",
+  "block.vpend.interclay": "Gwiazdoglina",
+  "block.vpend.silicon_ore": "Ruda krzemu",
+  "block.vpend.interclay_deposit": "Złoże gwiazdogliny",
+  "block.vpend.phalm_log": "Falmowa pień",
+  "block.vpend.phalm_leaves": "Falmowa liście",
+  "block.vpend.phantom_skin": "Skóra z fantoma",
+  "block.vpend.phantom_crawl": "Porost z fantoma",
+  "block.vpend.phantom_end_stone": "Fantomowy kamień endu",
+  "block.vpend.phantom_blades": "Ostrza fantoma",
+  "block.vpend.phantom_bumps": "Wyrosty fantoma",
+  "block.vpend.phantom_thicket": "Gęstwina fantoma",
+  "block.vpend.fruit_bush": "Krzak owocujący",
+  "block.vpend.void_soil": "Gleba próżniowa",
+  "block.vpend.cold_end_stone": "Zamrożony kamień endu",
+  "block.vpend.cracked_end_stone": "Pęknięty kamień endu",
+  "block.vpend.echoeing_end_stone": "Głuchy kamień endu",
+  "block.vpend.choir_growth": "Chóralny porost",
+  "block.vpend.choir_bubbles": "Chóralne bąble",
+
+  "itemgroup.items": "Itemy Kresu Vanilla+",
+  "itemgroup.blocks": "Bloki Kresu Vanilla+",
+
+  "effect.vpend.phantom": "Duchowanie",
+  "effect.vpend.savoury": "Rozkosz",
+  "effect.vpend.immunity": "Immunitet",
+
+  "biome.vpend.phantom_tropics": "Fantomowe Tropiki",
+  "biome.vpend.void_zone": "Sfera Próżniowa",
+  "biome.vpend.echoeing_wastelands": "Głuche Pustkowie",
+  "biome.vpend.ancient_peaks": "Starożytne Szczyty"
+}

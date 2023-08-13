@@ -1,0 +1,188 @@
+{
+  "feature": "vpend:fruit_bush",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          -1,
+          -1,
+          0
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          1,
+          -1,
+          0
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          -1
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          1
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          -1,
+          -1,
+          -1
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          -1,
+          -1,
+          1
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          1,
+          -1,
+          -1
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          1,
+          -1,
+          1
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          2,
+          0,
+          0
+        ],
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          2
+        ],
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          -2,
+          0,
+          0
+        ],
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          -2
+        ],
+        "blocks": "minecraft:air"
+      }
+    }
+  ]
+}

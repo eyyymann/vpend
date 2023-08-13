@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "vpend:center",
+  "argument2": "vpend:peaks_and_depths"
+}

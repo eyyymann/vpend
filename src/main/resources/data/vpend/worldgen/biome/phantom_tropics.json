@@ -1,46 +1,33 @@
 {
-  "temperature": 0.95,
-  "downfall": 0.9,
-  "has_precipitation": true,
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
   "effects": {
-    "sky_color": 7842047,
-    "fog_color": 12638463,
+    "sky_color": 7254527,
+    "fog_color": 1879009,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": {
-      "sound": "minecraft:music.overworld.jungle",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "particle": {
+      "options": {
+        "type": "minecraft:glow_squid_ink"
+      },
+      "probability": 0.00128
     }
   },
   "spawners": {
-    "ambient": [
-    ],
+    "ambient": [],
     "axolotls": [],
-    "creature": [
-    ],
+    "creature": [],
     "misc": [],
-    "monster": [
-    ],
-    "underground_water_creature": [
-    ],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
+    "air": "minecraft:nether_cave"
   },
   "features": [
     [],
@@ -51,8 +38,12 @@
     [],
     [],
     [],
-    [],
-    [],
+    [
+      "vpend:phantom_crawl",
+      "vpend:trees_phantom_tropics",
+      "vpend:phantom_tropics_vegetation",
+      "vpend:phantom_thicket"
+    ],
     []
   ]
 }

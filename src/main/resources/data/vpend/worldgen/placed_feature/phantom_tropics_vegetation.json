@@ -1,0 +1,12 @@
+{
+  "feature": "vpend:phantom_tropics_vegetation",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 24
+    }, {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+

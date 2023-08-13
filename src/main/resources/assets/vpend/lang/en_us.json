@@ -1,14 +1,38 @@
 {
   "item.vpend.mesoglea": "Mesoglea",
+  "item.vpend.banana": "Banana",
+  "item.vpend.orange": "Orange",
+  "item.vpend.peach": "Peach",
 
-  "block.vpend.phalm_log": "Phalm Log",
-  "block.vpend.phalm_leaves": "Phalm Leaves",
-  "block.vpend.void_soil": "Void Soil",
-  "block.vpend.phantom_skin": "Phantom Skin",
-  "block.vpend.phantom_crawl": "Phantom Crawl",
+  "block.vpend.raw_silicon": "Raw silicon",
+  "block.vpend.interclay": "Interclay",
+  "block.vpend.silicon_ore": "Silicon ore",
+  "block.vpend.interclay_deposit": "Interclay deposit",
+  "block.vpend.phalm_log": "Phalm log",
+  "block.vpend.phalm_leaves": "Phalm leaves",
+  "block.vpend.phantom_skin": "Phantom skin",
+  "block.vpend.phantom_crawl": "Phantom crawl",
+  "block.vpend.phantom_end_stone": "Phantom end stone",
+  "block.vpend.phantom_blades": "Phantom blades",
+  "block.vpend.phantom_bumps": "Phantom bumps",
+  "block.vpend.phantom_thicket": "Phantom thicket",
+  "block.vpend.fruit_bush": "Fruit bush",
+  "block.vpend.void_soil": "Void soil",
+  "block.vpend.cold_end_stone": "Cold end stone",
+  "block.vpend.cracked_end_stone": "Cracked end stone",
+  "block.vpend.echoeing_end_stone": "Echoeing end stone",
+  "block.vpend.choir_growth": "Choir growth",
+  "block.vpend.choir_bubbles": "Choir bubbles",
 
   "itemgroup.items": "Vanilla+ End Items",
   "itemgroup.blocks": "Vanilla+ End Blocks",
 
-  "effect.vpend.phantom": "Phantom"
+  "effect.vpend.phantom": "Phantom",
+  "effect.vpend.savoury": "Savoury",
+  "effect.vpend.immunity": "Immunity",
+
+  "biome.vpend.phantom_tropics": "Phantom Tropics",
+  "biome.vpend.void_zone": "Void Zone",
+  "biome.vpend.echoeing_wastelands": "Echoeing Wastelands",
+  "biome.vpend.ancient_peaks": "Ancient Peaks"
 }

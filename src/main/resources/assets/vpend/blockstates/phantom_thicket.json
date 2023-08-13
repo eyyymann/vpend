@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "vpend:block/phantom_thicket_bottom"
+    },
+    "half=upper": {
+      "model": "vpend:block/phantom_thicket_top"
+    }
+  }
+}

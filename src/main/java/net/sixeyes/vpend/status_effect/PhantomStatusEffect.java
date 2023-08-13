@@ -2,11 +2,10 @@ package net.sixeyes.vpend.status_effect;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;
-import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.BlockRotation;
 
 public class PhantomStatusEffect extends StatusEffect {
     protected PhantomStatusEffect() {
@@ -23,11 +22,7 @@ public class PhantomStatusEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity) {
-            double flyingSpeed = 0.01;
-            Vec3d lookingAt = entity.getEyePos();
-            Vec3d movement = entity.getPos().add(lookingAt).multiply(flyingSpeed);
-            entity.setVelocity(movement.x, movement.y, movement.z);
-            entity.setSwimming(true);
+            entity.applyRotation(BlockRotation.CLOCKWISE_90);
         }
     }
 
@@ -35,8 +30,7 @@ public class PhantomStatusEffect extends StatusEffect {
     public void onRemoved(LivingEntity entity, AttributeContainer attributes, int amplifier) {
         super.onRemoved(entity, attributes, amplifier);
         if (entity instanceof PlayerEntity) {
-            entity.setNoGravity(false);
-            entity.setMovementSpeed(0.7f);
+            int i = 1;
         }
     }
 }

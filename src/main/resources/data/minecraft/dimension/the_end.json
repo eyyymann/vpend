@@ -7,47 +7,59 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "vpend:void_zone",
-          "parameters": {
-            "temperature": -1,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [1, -1.2],
-            "offset": 0
-          }
-        },{
           "biome": "vpend:phantom_tropics",
           "parameters": {
-            "temperature": -0.5,
+            "temperature": [
+              -1,
+              0
+            ],
             "humidity": 0,
-            "continentalness": 0,
+            "continentalness": -1,
             "erosion": 0,
             "weirdness": 0,
-            "depth": -1.4,
+            "depth": 0.481,
             "offset": 0
           }
         },{
           "biome": "vpend:echoeing_wastelands",
           "parameters": {
-            "temperature": 0.5,
+            "temperature": [
+              -1,
+              0
+            ],
             "humidity": 0,
-            "continentalness": 0,
+            "continentalness": 1,
             "erosion": 0,
             "weirdness": 0,
-            "depth": -1.5,
+            "depth": 0.481,
             "offset": 0
           }
         },{
           "biome": "vpend:ancient_peaks",
           "parameters": {
-            "temperature": 1,
+            "temperature": [
+              0,
+              1
+            ],
             "humidity": 0,
-            "continentalness": 0,
+            "continentalness": 1,
             "erosion": 0,
             "weirdness": 0,
-            "depth": -2,
+            "depth": 0.481,
+            "offset": 0
+          }
+        },{
+          "biome": "vpend:void_zone",
+          "parameters": {
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": 0,
+            "continentalness": -1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0.744,
             "offset": 0
           }
         }
@@ -55,3 +67,6 @@
     }
   }
 }
+
+
+

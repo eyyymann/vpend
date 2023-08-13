@@ -1,0 +1,9 @@
+{
+  "values": [
+    "vpend:echoeing_end_stone",
+    "vpend:silicon",
+    "vpend:interclay",
+    "minecraft:end_stone"
+  ],
+  "replace": false
+}

@@ -1,0 +1,20 @@
+{
+  "feature": "vpend:phalm_tree_medium",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "vpend:phantom_skin",
+          "vpend:phantom_end_stone"
+        ]
+      }
+    }
+  ]
+}

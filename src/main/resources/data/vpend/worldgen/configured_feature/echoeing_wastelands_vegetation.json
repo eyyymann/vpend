@@ -1,0 +1,19 @@
+{
+  "type": "vpend:end_vegetation",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "vpend:choir_growth"
+          }
+        }
+      ]
+    },
+    "spread_width": 8,
+    "spread_height": 4,
+    "ground": "#vpend:echoeing_wastelands_ground"
+  }
+}
