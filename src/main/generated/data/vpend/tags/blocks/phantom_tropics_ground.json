@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:phantom_end_stone",
+    "vpend:phantom_skin",
+    "#vpend:end_ground"
+  ]
+}

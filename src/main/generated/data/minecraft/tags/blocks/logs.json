@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:phalm_log",
+    "vpend:stripped_phalm_log",
+    "vpend:stripped_phalm_wood",
+    "vpend:stripped_phalm_log",
+    "vpend:chorus_trunk",
+    "vpend:stripped_chorus_trunk"
+  ]
+}

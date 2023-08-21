@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:cold_end_stone",
+    "#vpend:end_ground"
+  ]
+}

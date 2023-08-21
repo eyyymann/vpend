@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "fruit=0": {
+      "model": "vpend:block/fruit_bush"
+    },
+    "fruit=1": {
+      "model": "vpend:block/fruit_bush_banana1"
+    },
+    "fruit=2": {
+      "model": "vpend:block/fruit_bush_banana2"
+    },
+    "fruit=3": {
+      "model": "vpend:block/fruit_bush_orange1"
+    },
+    "fruit=4": {
+      "model": "vpend:block/fruit_bush_orange2"
+    },
+    "fruit=5": {
+      "model": "vpend:block/fruit_bush_peach1"
+    },
+    "fruit=6": {
+      "model": "vpend:block/fruit_bush_peach2"
+    }
+  }
+}

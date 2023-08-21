@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "vpend:final",
+  "min_inclusive": -0.025,
+  "max_exclusive": 0.01,
+  "when_in_range": 1,
+  "when_out_of_range": 0
+}

@@ -26,9 +26,7 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": "minecraft:nether_cave"
-  },
+  "carvers": {},
   "features": [
     [],
     [],

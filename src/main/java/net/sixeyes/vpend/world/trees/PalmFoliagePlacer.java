@@ -96,7 +96,7 @@ public class PalmFoliagePlacer extends FoliagePlacer {
             radius += random.nextBetween(0, 1);
         }
 
-        // top foliage block
+        // top foliage blocks
         generateCube(world, placer, random, blockPos.up(1), thickness, config);
 
         // first parabola

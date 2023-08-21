@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.sixeyes.vpend.block.ModBlocks;
 import net.sixeyes.vpend.item.ModItemGroup;
 import net.sixeyes.vpend.item.ModItems;
+import net.sixeyes.vpend.particle.ModParticles;
+import net.sixeyes.vpend.registry.ModTags;
 import net.sixeyes.vpend.status_effect.ModStatusEffects;
 import net.sixeyes.vpend.world.features.ModFeatures;
 import net.sixeyes.vpend.world.trees.ModTrees;
@@ -23,6 +25,8 @@ public class VPEndMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModFeatures.registerModFeatures();
 		ModTrees.registerModTrees();
+		ModTags.registerModTags();
+		ModParticles.registerModParticles();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

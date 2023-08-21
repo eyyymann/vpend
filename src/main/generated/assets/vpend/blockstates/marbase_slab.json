@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vpend:block/marbase_slab"
+    },
+    "type=double": {
+      "model": "vpend:block/marbase"
+    },
+    "type=top": {
+      "model": "vpend:block/marbase_slab_top"
+    }
+  }
+}

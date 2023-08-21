@@ -5,7 +5,6 @@ import net.minecraft.entity.attribute.AttributeContainer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.BlockRotation;
 
 public class PhantomStatusEffect extends StatusEffect {
     protected PhantomStatusEffect() {
@@ -22,7 +21,7 @@ public class PhantomStatusEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity) {
-            entity.applyRotation(BlockRotation.CLOCKWISE_90);
+            // finish this later, add the horizontal collision condition
         }
     }
 
@@ -30,7 +29,6 @@ public class PhantomStatusEffect extends StatusEffect {
     public void onRemoved(LivingEntity entity, AttributeContainer attributes, int amplifier) {
         super.onRemoved(entity, attributes, amplifier);
         if (entity instanceof PlayerEntity) {
-            int i = 1;
         }
     }
 }

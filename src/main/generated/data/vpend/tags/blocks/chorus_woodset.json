@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:chorus_trunk",
+    "vpend:stripped_chorus_trunk",
+    "vpend:chorus_planks",
+    "vpend:chorus_stairs",
+    "vpend:chorus_slab",
+    "vpend:chorus_door",
+    "vpend:chorus_trapdoor",
+    "vpend:chorus_button",
+    "vpend:chorus_pressure_plate",
+    "vpend:chorus_fence",
+    "vpend:chorus_fence_gate"
+  ]
+}

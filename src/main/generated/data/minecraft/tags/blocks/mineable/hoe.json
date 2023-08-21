@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:phalm_leaves",
+    "vpend:phantom_crawl",
+    "vpend:phantom_blades",
+    "vpend:phantom_bumps",
+    "vpend:phantom_thicket",
+    "vpend:fruit_bush",
+    "vpend:choir_growth",
+    "vpend:choir_bubbles"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:phalm_log",
+    "vpend:phalm_wood",
+    "vpend:stripped_phalm_log",
+    "vpend:stripped_phalm_wood",
+    "vpend:phalm_planks",
+    "vpend:phalm_stairs",
+    "vpend:phalm_slab",
+    "vpend:phalm_door",
+    "vpend:phalm_trapdoor",
+    "vpend:phalm_button",
+    "vpend:phalm_pressure_plate",
+    "vpend:phalm_fence",
+    "vpend:phalm_fence_gate"
+  ]
+}

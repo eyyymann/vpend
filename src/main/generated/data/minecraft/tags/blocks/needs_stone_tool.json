@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:fruit_bush",
+    "vpend:cracked_end_stone",
+    "vpend:echoeing_end_stone",
+    "vpend:phantom_end_stone",
+    "vpend:cold_end_stone",
+    "vpend:epilite",
+    "vpend:epilite_stairs",
+    "vpend:epilite_slab",
+    "vpend:epilite_wall",
+    "vpend:marbase",
+    "vpend:marbase_stairs",
+    "vpend:marbase_slab",
+    "vpend:marbase_wall"
+  ]
+}

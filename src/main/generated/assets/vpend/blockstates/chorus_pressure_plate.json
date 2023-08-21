@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "vpend:block/chorus_pressure_plate"
+    },
+    "powered=true": {
+      "model": "vpend:block/chorus_pressure_plate_down"
+    }
+  }
+}

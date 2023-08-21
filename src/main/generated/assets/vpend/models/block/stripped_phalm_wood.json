@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "vpend:block/stripped_phalm_log",
+    "side": "vpend:block/stripped_phalm_log"
+  }
+}

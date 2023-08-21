@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:cracked_end_stone",
+    "vpend:epilite",
+    "vpend:epilite_stairs",
+    "vpend:epilite_slab",
+    "vpend:epilite_wall",
+    "vpend:marbase",
+    "vpend:marbase_stairs",
+    "vpend:marbase_slab",
+    "vpend:marbase_wall",
+    "vpend:raw_silicon_block",
+    "vpend:interclay_block",
+    "vpend:silicon_ore",
+    "vpend:interclay_deposit",
+    "vpend:cold_end_stone",
+    "vpend:phantom_end_stone",
+    "vpend:echoeing_end_stone"
+  ]
+}

@@ -9,4 +9,6 @@ package net.sixeyes.vpend.access;
 public interface StatusEffectInstanceAccess {
 
     void setPaused(boolean b);
+
+    boolean getPaused();
 }

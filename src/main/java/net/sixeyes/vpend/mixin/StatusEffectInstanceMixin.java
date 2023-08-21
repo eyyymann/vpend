@@ -29,4 +29,8 @@ public abstract class StatusEffectInstanceMixin implements StatusEffectInstanceA
     public void vpend$setPaused(boolean b) {
         this.paused = b;
     }
+
+    public boolean vpend$getPaused() {
+        return this.paused;
+    }
 }

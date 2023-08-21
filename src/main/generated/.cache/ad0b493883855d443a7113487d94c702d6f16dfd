@@ -1,0 +1,26 @@
+// 1.20.1	2023-08-21T09:41:45.8140582	VPEND/Tags for minecraft:block
+af053c486b592dca50b7ec260574a86cad6c78e7 data\vpend\tags\blocks\chorus_woodset.json
+2c6638974498d065f7cd5c831a360dcbff4afe6b data\minecraft\tags\blocks\slabs.json
+ab7b9c82fec16fec01d74319366691a9f267673f data\minecraft\tags\blocks\doors.json
+15d3fc1b58d97eccb691dd4ef5c537966b155e65 data\vpend\tags\blocks\echoeing_wastelands_ground.json
+9d76e616ca671e8dae4d51615fc0d0e403584871 data\minecraft\tags\blocks\needs_diamond_tool.json
+25c900bed0e52bb06519ee47f536e2e8c5f749df data\vpend\tags\blocks\phantom_tropics_ground.json
+72577b4ab12172c4d2c97c6deefa8158319fff99 data\minecraft\tags\blocks\mineable\axe.json
+18dac2505b8d3f934b0ae16eadc8bff76c37723f data\minecraft\tags\blocks\walls.json
+9d0c2ad4322d5c2457cdfdab2a76e4ebd99e7af5 data\minecraft\tags\blocks\mineable\pickaxe.json
+676c4b09eac5d3131e958687d634d956ae547016 data\minecraft\tags\blocks\logs.json
+402865a794dbec90ba80654f00af153768c52664 data\minecraft\tags\blocks\trapdoors.json
+4ad3b67fcb1d51cb10eb2cf1e78cd04c2c346469 data\minecraft\tags\blocks\buttons.json
+70d283a9779ca871bd061a877c8f8fecd40bf36c data\minecraft\tags\blocks\leaves.json
+c8cb2f5499a1c5c7fac77c68adf7f8927cafb7c9 data\vpend\tags\blocks\ancient_peaks_ground.json
+883eeffc611184e5c0d30c6d720ada4757a2855e data\minecraft\tags\blocks\stairs.json
+956c5eec59d662e5983e843d0b96e021dc212799 data\minecraft\tags\blocks\fence_gates.json
+0716144cfc9a91217c66076412c0deaf44fcc153 data\vpend\tags\blocks\end_crater_replaceable.json
+c9eeeb77da45d15762d1cccec708b875ac895082 data\minecraft\tags\blocks\mineable\hoe.json
+b75046dec364d16be7297818e2e79910e4a8f20b data\vpend\tags\blocks\end_ground.json
+3df5f4adae930a30f42e0d665105460945a00c08 data\minecraft\tags\blocks\needs_stone_tool.json
+63060864674bc42777871bfcbdfb898a6829098c data\minecraft\tags\blocks\fences.json
+9cf6ea35ca240ff0bc83d855fc34795837ac3933 data\vpend\tags\blocks\phalm_woodset.json
+c96f7cd2312de9c6f17571de59850b1534d356ed data\minecraft\tags\blocks\planks.json
+2272c1a9331e4972f237b9fca7e4be6e78c0e320 data\minecraft\tags\blocks\mineable\shovel.json
+8488571e7db08f3f14929f914bec5fd3dc119193 data\minecraft\tags\blocks\pressure_plates.json

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vpend:block/phalm_slab"
+    },
+    "type=double": {
+      "model": "vpend:block/phalm_planks"
+    },
+    "type=top": {
+      "model": "vpend:block/phalm_slab_top"
+    }
+  }
+}

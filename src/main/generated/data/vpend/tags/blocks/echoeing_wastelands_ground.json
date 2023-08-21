@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:echoeing_end_stone",
+    "#vpend:end_ground"
+  ]
+}

@@ -9,6 +9,11 @@
           "data": {
             "Name": "vpend:choir_growth"
           }
+        },{
+          "weight": 1,
+          "data": {
+            "Name": "vpend:choir_bubbles"
+          }
         }
       ]
     },

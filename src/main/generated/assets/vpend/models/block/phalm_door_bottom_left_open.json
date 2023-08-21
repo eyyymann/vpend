@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "vpend:block/phalm_door_bottom",
+    "top": "vpend:block/phalm_door_top"
+  }
+}

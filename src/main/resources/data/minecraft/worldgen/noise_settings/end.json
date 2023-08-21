@@ -24,15 +24,7 @@
     "fluid_level_floodedness": 0,
     "fluid_level_spread": 0,
     "lava": 0,
-    "temperature": {
-      "type": "minecraft:shifted_noise",
-      "noise": "minecraft:temperature",
-      "xz_scale": 0.25,
-      "y_scale": 0,
-      "shift_x": "minecraft:shift_x",
-      "shift_y": 0,
-      "shift_z": "minecraft:shift_z"
-    },
+    "temperature": "vpend:end_biomes",
     "vegetation": {
       "type": "minecraft:shifted_noise",
       "noise": "minecraft:vegetation",
@@ -48,54 +40,9 @@
     "ridges": 0,
     "initial_density_without_jaggedness": 0,
     "final_density": {
-      "type": "minecraft:squeeze",
-      "argument": {
-        "type": "minecraft:mul",
-        "argument1": 0.64,
-        "argument2": {
-          "type": "minecraft:interpolated",
-          "argument": {
-            "type": "minecraft:blend_density",
-            "argument": {
-              "type": "minecraft:add",
-              "argument1": -0.234375,
-              "argument2": {
-                "type": "minecraft:mul",
-                "argument1": {
-                  "type": "minecraft:y_clamped_gradient",
-                  "from_y": 4,
-                  "to_y": 32,
-                  "from_value": 0,
-                  "to_value": 1
-                },
-                "argument2": {
-                  "type": "minecraft:add",
-                  "argument1": 0.234375,
-                  "argument2": {
-                    "type": "minecraft:add",
-                    "argument1": -23.4375,
-                    "argument2": {
-                      "type": "minecraft:mul",
-                      "argument1": {
-                        "type": "minecraft:y_clamped_gradient",
-                        "from_y": 56,
-                        "to_y": 312,
-                        "from_value": 1,
-                        "to_value": 0
-                      },
-                      "argument2": {
-                        "type": "minecraft:add",
-                        "argument1": 23.4375,
-                        "argument2": "minecraft:end/sloped_cheese"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+      "type": "minecraft:add",
+      "argument1": "vpend:final",
+      "argument2": "vpend:caves"
     },
     "vein_toggle": 0,
     "vein_ridged": 0,
@@ -153,36 +100,27 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:stone_depth",
-                    "offset": 2,
+                    "offset": 0,
                     "surface_type": "floor",
-                    "add_surface_depth": true,
+                    "add_surface_depth": false,
                     "secondary_depth_range": 0
                   },
                   "then_run": {
-                    "type": "minecraft:sequence",
-                    "sequence": [
-                      {
-                        "type": "minecraft:condition",
-                        "if_true": {
-                          "type": "minecraft:noise_threshold",
-                          "noise": "vpend:echoeing_end_stone_patches",
-                          "min_threshold": 0.5,
-                          "max_threshold": 1.7976931348623157e+308
-                        },
-                        "then_run": {
-                          "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "vpend:echoeing_end_stone"
-                          }
-                        }
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:y_above",
+                      "anchor": {
+                        "absolute": 50
                       },
-                      {
-                        "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "minecraft:end_stone"
-                        }
+                      "surface_depth_multiplier": 0,
+                      "add_stone_depth": false
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:end_stone"
                       }
-                    ]
+                    }
                   }
                 }
               ]
@@ -204,8 +142,8 @@
                   "if_true": {
                     "type": "minecraft:noise_threshold",
                     "noise": "minecraft:calcite",
-                    "min_threshold": -0.0225,
-                    "max_threshold": 0.0225
+                    "min_threshold": -0.01,
+                    "max_threshold": 0.01
                   },
                   "then_run": {
                     "type": "minecraft:block",
@@ -224,37 +162,37 @@
                     "secondary_depth_range": 0
                   },
                   "then_run": {
-                  "type": "minecraft:sequence",
-                  "sequence": [
-                    {
-                      "type": "minecraft:condition",
-                      "if_true": {
-                        "type": "minecraft:noise_threshold",
-                        "noise": "vpend:echoeing_end_stone_patches",
-                        "min_threshold": 1.17,
-                        "max_threshold": 1.7976931348623157e+308
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "noise": "vpend:echoeing_end_stone_patches",
+                          "min_threshold": -2,
+                          "max_threshold": 1.2
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "vpend:phantom_end_stone"
+                          }
+                        }
                       },
-                      "then_run": {
+                      {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "vpend:phantom_end_stone"
+                          "Name": "minecraft:end_stone"
                         }
                       }
-                    },
-                    {
-                      "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "minecraft:end_stone"
-                      }
-                    }
-                  ]
-                }},{
+                    ]
+                  }},{
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:stone_depth",
-                    "offset": 1,
+                    "offset": 0,
                     "surface_type": "floor",
-                    "add_surface_depth": true,
+                    "add_surface_depth": false,
                     "secondary_depth_range": 0
                   },
                   "then_run": {
@@ -282,15 +220,21 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:stone_depth",
-                    "offset": 0,
+                    "offset": 1,
                     "surface_type": "floor",
-                    "add_surface_depth": true,
+                    "add_surface_depth": false,
                     "secondary_depth_range": 0
                   },
                   "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:snow_block"
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:above_preliminary_surface"
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:snow"
+                      }
                     }
                   }
                 },{
@@ -312,13 +256,22 @@
             "if_true": {
               "type": "minecraft:noise_threshold",
               "noise": "vpend:silicon",
-              "min_threshold": -0.03,
-              "max_threshold": 0.03
+              "min_threshold": 0.1,
+              "max_threshold": 0.12
             },
             "then_run": {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "vpend:silicon"
+              "type": "minecraft:condition",
+              "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "noise": "vpend:silicon_and_interclay_stripe_noise",
+                  "min_threshold": -1,
+                  "max_threshold": 0.75
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "vpend:raw_silicon"
+                }
               }
             }
           },
@@ -326,15 +279,101 @@
             "type": "minecraft:condition",
             "if_true": {
               "type": "minecraft:noise_threshold",
+              "noise": "vpend:silicon_and_interclay_stripe_noise",
+              "min_threshold": -1,
+              "max_threshold": 0.5
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "vpend:silicon",
+                    "min_threshold": 0.14,
+                    "max_threshold": 0.16
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "vpend:silicon_ore"
+                    }
+                  }
+                },{
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "vpend:silicon",
+                    "min_threshold": 0.06,
+                    "max_threshold": 0.08
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "vpend:silicon_ore"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:noise_threshold",
               "noise": "vpend:interclay",
-              "min_threshold": -4,
-              "max_threshold": -2.5
+              "min_threshold": 0.1,
+              "max_threshold": 0.15
             },
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
                 "Name": "vpend:interclay"
               }
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:noise_threshold",
+              "noise": "vpend:silicon_and_interclay_stripe_noise",
+              "min_threshold": -1,
+              "max_threshold": 0.5
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "vpend:interclay",
+                    "min_threshold": 0.14,
+                    "max_threshold": 0.19
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "vpend:interclay_deposit"
+                    }
+                  }
+                },{
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "vpend:interclay",
+                    "min_threshold": 0.06,
+                    "max_threshold": 0.11
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "vpend:interclay_deposit"
+                    }
+                  }
+                }
+              ]
             }
           }
         ]

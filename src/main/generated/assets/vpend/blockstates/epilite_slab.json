@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vpend:block/epilite_slab"
+    },
+    "type=double": {
+      "model": "vpend:block/epilite"
+    },
+    "type=top": {
+      "model": "vpend:block/epilite_slab_top"
+    }
+  }
+}

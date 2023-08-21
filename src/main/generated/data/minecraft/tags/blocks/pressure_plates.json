@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "vpend:phalm_pressure_plate",
+    "vpend:chorus_pressure_plate"
+  ]
+}

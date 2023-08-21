@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "vpend:block/phalm_planks",
+    "side": "vpend:block/phalm_planks",
+    "top": "vpend:block/phalm_planks"
+  }
+}

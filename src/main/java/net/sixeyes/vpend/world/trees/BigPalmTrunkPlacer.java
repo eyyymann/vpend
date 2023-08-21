@@ -66,6 +66,10 @@ public class BigPalmTrunkPlacer extends TrunkPlacer {
 
         // Set the ground beneath the trunk to 'dirt'
         setToDirt(world, placer, random, startPos.down(), config);
+        setToDirt(world, placer, random, startPos.down().east(1), config);
+        setToDirt(world, placer, random, startPos.down().north(1), config);
+        setToDirt(world, placer, random, startPos.down().east(1).north(1), config);
+
         ArrayList<FoliagePlacer.TreeNode> list = Lists.newArrayList();
         Direction direction = Direction.Type.HORIZONTAL.random(random);
 

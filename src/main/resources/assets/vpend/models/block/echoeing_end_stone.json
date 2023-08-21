@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "minecraft:block/end_stone",
-    "side": "vpend:block/echoeing_end_stone_side",
-    "top": "vpend:block/echoeing_end_stone_top"
-  }
-}

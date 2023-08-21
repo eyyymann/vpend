@@ -26,11 +26,10 @@
     "water_creature": []
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": "minecraft:nether_cave"
-  },
+  "carvers": {},
   "features": [
-    [],
+    [
+    ],
     [],
     [],
     [],
@@ -39,8 +38,7 @@
     [],
     [],
     [
-      "vpend:echoeing_wastelands_vegetation",
-      "vpend:choir_bubbles"
+      "vpend:echoeing_wastelands_patch"
     ],
     [
       "minecraft:chorus_plant"

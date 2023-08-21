@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "crack_stage=1": {
+      "model": "vpend:block/cracked_end_stone"
+    },
+    "crack_stage=2": {
+      "model": "vpend:block/cracked_end_stone1"
+    },
+    "crack_stage=3": {
+      "model": "vpend:block/cracked_end_stone2"
+    },
+    "crack_stage=4": {
+      "model": "vpend:block/cracked_end_stone3"
+    }
+  }
+}

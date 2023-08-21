@@ -33,7 +33,8 @@ public class ImmunityEffect extends StatusEffect {
         if (entity.isPlayer()) {
             List<StatusEffectInstance> statusEffectInstances = entity.getStatusEffects().stream().toList();
             for (StatusEffectInstance statusEffectInstance : statusEffectInstances) {
-                if (statusEffectInstance.getEffectType().getCategory().equals(StatusEffectCategory.HARMFUL)) {
+                if (statusEffectInstance.getEffectType().getCategory().equals(StatusEffectCategory.HARMFUL)
+                && !((StatusEffectInstanceAccess)statusEffectInstance).getPaused() ) {
                     ((StatusEffectInstanceAccess)statusEffectInstance).setPaused(true);
                 }
             }
